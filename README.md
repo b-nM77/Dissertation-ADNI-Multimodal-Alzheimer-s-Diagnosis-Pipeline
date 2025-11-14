@@ -112,11 +112,12 @@ ADNI-Multimodal-Pipeline/
 │   └── fusion/                       # Final fusion datasets
 │
 ├── pipelines/
-│   ├── clinical_cognitive_pipeline.ipynb
-│   ├── CSF_biomarker_pipeline.ipynb
+│   ├── clinical_cognitive_demographic_pipeline.ipynb
 │   ├── MRI_pipeline.ipynb
-│   ├── fusion_pipeline.ipynb
-│   └── multimodal_diagnosis_pipeline.ipynb
+│   ├── CSF_biomarker_pipeline.ipynb
+│   ├── Data_Fusion_Pipeline.ipynb
+│   ├── Multimodal_Diagnostic_Pipeline_All_Modalities.ipynb
+│   └── Multimodal_Diagnostic_Pipeline_Excluding_CSF_Biomarkers.ipynb
 │
 ├── output/
 │   ├── metrics/                      # Accuracy, F1, ROC-AUC tables
@@ -153,8 +154,9 @@ pip install -r requirements.txt
     - `clinical_cognitive_pipeline.ipynb`
     - `CSF_biomarker_pipeline.ipynb`
     - `MRI_pipeline.ipynb`
-    - `fusion_pipeline.ipynb`
-    - `multimodal_diagnosis_pipeline.ipynb`
+    - `Data Fusion Pipeline.ipynb`
+    - `Multimodal Diagnostic Pipeline (All Modalities).ipynb`
+    - `Multimodal Diagnostic Pipeline Excluding CSF Biomarkers.ipynb`
 
    It will:
     - Load raw ADNI data from `data/raw/`
@@ -168,8 +170,9 @@ pip install -r requirements.txt
     1. `clinical_cognitive_pipeline.ipynb`
     2. `CSF_biomarker_pipeline.ipynb`
     3. `MRI_pipeline.ipynb`
-    4. `fusion_pipeline.ipynb`
-    5. `multimodal_diagnosis_pipeline.ipynb`
+    4. `Data Fusion Pipeline.ipynb`
+    5. `Multimodal Diagnostic Pipeline (All Modalities).ipynb`
+    6. `Multimodal Diagnostic Pipeline Excluding CSF Biomarkers.ipynb`
 
    Results are saved under output/ (metrics, plots, ROC curves)
    ```
