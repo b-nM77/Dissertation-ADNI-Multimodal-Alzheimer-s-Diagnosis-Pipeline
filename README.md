@@ -96,8 +96,8 @@ Evaluation strategy:
 
 
 **Key Insight:**  
- - **CSF biomarkers provide a consistent performance boost.**  
- - **Stacking Ensemble generalises best across both pipelines.**
+ - **CSF biomarkers provide a consistent performance boost**  
+ - **Stacking Ensemble generalises best across both pipelines**
 
 ---
 
